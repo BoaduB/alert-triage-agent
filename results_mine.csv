@@ -1,0 +1,13 @@
+alert_id,actual,predicted,outcome
+alert_01,escalate,escalate,caught
+alert_02,escalate,escalate,caught
+alert_03,escalate,escalate,caught
+alert_04,escalate,escalate,caught
+alert_05,escalate,escalate,caught
+alert_06,escalate,close,missed
+alert_07,close,close,correct_close
+alert_08,close,close,correct_close
+alert_09,close,close,correct_close
+alert_10,close,close,correct_close
+alert_11,close,close,correct_close
+alert_12,close,escalate,over_escalated

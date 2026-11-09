@@ -1,0 +1,74 @@
+[
+  {
+    "id": "alert_01",
+    "source": "EDR",
+    "text": "Suspicious execution of Mimikatz payload detected dumping memory on srv-dc-01.",
+    "label": "escalate"
+  },
+  {
+    "id": "alert_02",
+    "source": "Windows",
+    "text": "Unauthorized powershell -enc execution bypassing standard execution policies.",
+    "label": "escalate"
+  },
+  {
+    "id": "alert_03",
+    "source": "CloudTrail",
+    "text": "Unusual login from foreign IP address followed by immediate privilege escalation.",
+    "label": "escalate"
+  },
+  {
+    "id": "alert_04",
+    "source": "IDS",
+    "text": "Known C2 command and control beaconing detected outbound on port 4443.",
+    "label": "escalate"
+  },
+  {
+    "id": "alert_05",
+    "source": "EDR",
+    "text": "Malware variant dropped payload into temporary directory and initiated exfiltration.",
+    "label": "escalate"
+  },
+  {
+    "id": "alert_06",
+    "source": "Windows",
+    "text": "Anomalous token impersonation and unauthorized administrative session spawning. [HARD CASE: Real incident containing zero keyword matches]",
+    "label": "escalate"
+  },
+  {
+    "id": "alert_07",
+    "source": "Windows",
+    "text": "Service control manager successfully completed routine background update check.",
+    "label": "close"
+  },
+  {
+    "id": "alert_08",
+    "source": "CloudTrail",
+    "text": "Scheduled AWS IAM role rotation executed successfully by automated maintenance script.",
+    "label": "close"
+  },
+  {
+    "id": "alert_09",
+    "source": "EDR",
+    "text": "Legitimate enterprise endpoint security agent heartbeat ping acknowledged.",
+    "label": "close"
+  },
+  {
+    "id": "alert_10",
+    "source": "Windows",
+    "text": "User successfully logged into workstation during normal business hours.",
+    "label": "close"
+  },
+  {
+    "id": "alert_11",
+    "source": "IDS",
+    "text": "Internal vulnerability scanner probe traversing subnet during authorized maintenance window.",
+    "label": "close"
+  },
+  {
+    "id": "alert_12",
+    "source": "Windows",
+    "text": "Automated deployment script accessed the root directory for standard application configuration. [HARD CASE: Routine noise containing a keyword match]",
+    "label": "close"
+  }
+]
